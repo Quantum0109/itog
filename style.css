@@ -9,10 +9,6 @@ footer {
 }
 
 header {
-	background-image: url(img/01.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 	display: flex;
 	justify-content: center;
 	max-height: 1000px;
@@ -40,4 +36,8 @@ header .epic {
 	background-color: black;
 	margin-left: 40px;
 	align-items: center;
+}
+header img {
+	max-width: 100vh;
+	max-height: 100vh;
 }
