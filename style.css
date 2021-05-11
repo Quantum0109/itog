@@ -1,0 +1,43 @@
+body {
+	margin: 0
+}
+
+header,
+main,
+footer {
+	background-color: #333;
+}
+
+header {
+	background-image: url(img/01.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	max-height: 1000px;
+	padding-top: 1000px;
+}
+main {
+	padding-top: 30px;
+	 display: flex;
+	 justify-content: center;
+}
+header .steam {
+	color: #fff;
+	text-decoration: none;
+	border-width: 10px;
+	border-style: inset; 
+	border-color: black;
+	margin-right: 40px;
+	align-items: center;
+}
+header .epic {
+	color: #fff;
+	text-decoration: none;
+	border-width: 10px;
+	border-style: outset;
+	background-color: black;
+	margin-left: 40px;
+	align-items: center;
+}
