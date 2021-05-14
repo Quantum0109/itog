@@ -1,5 +1,6 @@
 body {
 	margin: 0
+	max-width: 1224px;
 }
 
 header,
@@ -8,36 +9,19 @@ footer {
 	background-color: #333;
 }
 
-header {
+header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header a {
 	display: flex;
 	justify-content: center;
-	max-height: 1000px;
-	padding-top: 1000px;
-}
-main {
-	padding-top: 30px;
-	 display: flex;
-	 justify-content: center;
-}
-header .steam {
-	color: #fff;
+	border-style: inset;
+	border-width: 5px;
 	text-decoration: none;
-	border-width: 10px;
-	border-style: inset; 
-	border-color: black;
-	margin-right: 40px;
-	align-items: center;
-}
-header .epic {
 	color: #fff;
-	text-decoration: none;
-	border-width: 10px;
-	border-style: outset;
-	background-color: black;
-	margin-left: 40px;
-	align-items: center;
-}
-header img {
-	max-width: 100vh;
-	max-height: 100vh;
+	border-color: blue;
+
 }
