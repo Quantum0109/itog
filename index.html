@@ -3,16 +3,34 @@
 <head>
 	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 	<title>itog</title>
 </head>
 <body>
      <header> 
-     	<img src="img/01.jpg" alt="картинка">
-     	<a href="https://vk.com/alide13">скачать Raft</a>
-     	<a href="https://vk.com/ddtinfo">обсуждения по Raft</a>
-     </header> 
-     <main>
-
+     	<img src="img/raft.jpg" alt="картинка">
+     </header>
+     	<main>
+     		<section class="section__1">
+     		<a href="https://vk.com/alide13">скачать Raft</a>
+     		<a href="https://vk.com/ddtinfo">обсуждения по Raft</a>
+     	</section>
+     	<div class="fotorama"
+     data-width="800"
+     data-height="600"
+     data-nav="thumbs"
+     ata-transition="slide"
+     data-clicktransition="crossfade"
+     data-loop="true"
+     data-keyboard="true">
+  <img src="img/01.jpg">
+  <img src="img/02.jpg">
+  <img src="img/03.jpg">
+  <img src="img/04.jpg">
+</div>
      </main>
      <footer class="dno">
      	
